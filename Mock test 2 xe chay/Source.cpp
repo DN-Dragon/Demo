@@ -11,9 +11,9 @@ int move(string moves)
     for (int i = 0; i < moves.length(); i++)
     {
         ++i;
-        string a;
-        a = moves[i];
-        int s = stoi(a);
+        string b;
+        b = moves[i];
+        int s = stoi(b);
         if (moves[i-1] == 'U')
             y += s;
         if (moves[i-1] == 'D')
